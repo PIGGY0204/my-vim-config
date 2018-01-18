@@ -15,5 +15,12 @@ let Tlist_Sort_Type="name"   " tag按名字排序
 " miniBuf
 let g:miniBufExplMaxSize=2   " minibufexplorer窗口最大高度为2行
 
-map <C-n> :NERDTree<CR>
-map <C-t> :TlistToggle<CR>
+nmap <C-n> :NERDTree<CR>
+nmap <C-t> :TlistToggle<CR>
+nmap <s-n> :set nu!<CR>
+
+" 窗口切换
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
