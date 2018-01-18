@@ -2,7 +2,7 @@
 
 ## prerequisites
 
-### - git
+### git
 
 ubuntu
 
@@ -16,7 +16,7 @@ centos
 sudo yum install git
 ```
 
-### - ctags
+### ctags
 
 ubuntu
 
@@ -36,7 +36,7 @@ download this project and run the automatic script `./auto.sh`
 
 copy `my-vim-config/.vimrc` to `~/`
 
-##Vim plugin list
+## Vim plugin list
 
 - [pathogen](https://github.com/tpope/vim-pathogen)
 - [auto-pairs](https://github.com/jiangmiao/auto-pairs)
