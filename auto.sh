@@ -8,6 +8,7 @@ autoload=${vim}/autoload
 bundle=${vim}/bundle
 vimrc=~/.vimrc
 vimrcB=${vimrc}~
+DIR=`dirname $0`
 
 #backups ~/.vim and ~/.vimrc
 if [ -d ${vim} ]; then
@@ -40,4 +41,5 @@ rm ${bundle}/taglist.zip
 #install supertab
 git clone https://github.com/ervandew/supertab.git ${bundle}/supertab
 
-#remember copy .vimrc to your home directory
+#copy .vimrc to home directory
+cp ${DIR}/.vimrc ~/
