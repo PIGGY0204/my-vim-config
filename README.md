@@ -37,7 +37,9 @@ download this project and run the automatic script `./auto.sh`
 ## Shortcut key
 
 F10: paste mode
+
 ctrl+n: open nerdTree
+
 ctrl+t: open taglist
 
 ## Vim plugin list
