@@ -1,6 +1,6 @@
-#you have to install git and ctags already, before you running this script
-
 #!/bin/bash
+
+#you have to install git and ctags already, before you running this script
 
 vim=~/.vim
 vimB=${vim}~
